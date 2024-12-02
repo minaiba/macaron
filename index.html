@@ -13,20 +13,68 @@
         }
       }
     </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
         <header></header>
     <main>
         <section1></section>
         <section2></section>
-        <section3></section>
+        <section3>
+          <div class="w-[1200px] m-auto">
+              <div class="text-[30px] text-center text-[#292929] font-semibold">
+                <h1 class="mt-[10px]">Акции</h1>
+              </div>
+              <swiper-container 
+                class="mySwiper" 
+                pagination="true" 
+                pagination-clickable="true" 
+                space-between="30" 
+                slides-per-view="4">
+              </swiper-container>
+          </div>
+        </section>
         <section4></section>
         <section5></section>
-        <section6></section>
+        <section6>
+        <div class="w-[1200px] m-auto mt-[100px]">
+          <div class="text-[30px] text-center text-[#292929] font-semibold">
+            <h1 class="mt-[80px]">Новости</h1>
+          </div>
+          <swiper-container 
+          class="mySwiper2" 
+          pagination="true"
+           slides-per-view="3"
+            space-between="30"
+             free-mode="true">
+          </swiper-container>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        </section>
         <section7></section>
         <section8></section>
     </main>
-        <footer></footer>
-    <script src="./app.js"></script>
+        <footer>
+          <div class="w-[1200px] m-auto bg-[#EBEDEE] mt-[300px]">
+            <div class="flex w-[90px] ">
+            <div>
+              <img src="./img/footer/Frame (9).svg" alt="">
+              <h4 class="text-[10px] w-[130px]">Готовим вручную и с любовью</h4>
+            </div>
+            <div class="ml-[40px]">
+              <img src="./img/footer/Group 18.svg" alt="">
+              <h4 class="text-[10px] w-[150px]">Доставим в день заказа</h4>
+            </div>
+            <div class="ml-[40px]">
+              <img src="./img/footer/Vector (32).svg" alt="">
+              <h4 class="text-[10px]">100% миндальная мука и натуральные ингредиенты</h4>
+            </div>
+          </div>
+
+          </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script type="module" src="./app.js"></script>
 </body>
 </html>
