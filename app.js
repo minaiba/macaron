@@ -54,7 +54,7 @@ data.forEach((item) => {
     datalist.innerHTML = `
     
     <div class=" border-4 w-[370px] h-[459px] shadow-2xl">
-    <img  src=${item.img} class="transition-transform duration-500 hover:scale-110">
+    <img  src=${item.img} class="transition-transform duration-100 hover:scale-110 ">
     <h1 class=" text-[18px] font-semibold ml-[21px] "> ${item.name}</h1>
     <p class="text-[14px] text-[#292929] font-normal ml-[21px] "> ${item.p}</P>
     <h2 Class=" ml-[20px] text-[#E7426A] text-[18px] font-semibold  "> ${item.h2}</h2>
