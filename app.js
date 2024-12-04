@@ -23,21 +23,21 @@ data.forEach(item => {
 
 
 
-import { data } from "./data.js";
+// import { data } from "./data.js";
 
-const swiperContainer2 = document.querySelector('.mySwiper2');
+// const swiperContainer2 = document.querySelector('.mySwiper2');
 
-newsData.forEach(news => {
-  const slide = document.createElement('swiper-slide');
-  slide.innerHTML = `
-    <div class="rounded-[10px] shadow-lg bg-white p-4">
-      <img src="${news.img}" alt="${news.title}" class="w-full h-[150px] object-cover rounded-t-[10px]">
-      <h3 class="text-[20px] font-semibold mt-4">${news.title}</h3>
-      <p class="text-[14px] mt-2 text-gray-600">${news.description}</p>
-    </div>
-  `;
-  swiperContainer.appendChild(slide);
-});
+// newsData.forEach(news => {
+//   const slide = document.createElement('swiper-slide');
+//   slide.innerHTML = `
+//     <div class="rounded-[10px] shadow-lg bg-white p-4">
+//       <img src="${news.img}" alt="${news.title}" class="w-full h-[150px] object-cover rounded-t-[10px]">
+//       <h3 class="text-[20px] font-semibold mt-4">${news.title}</h3>
+//       <p class="text-[14px] mt-2 text-gray-600">${news.description}</p>
+//     </div>
+//   `;
+//   swiperContainer.appendChild(slide);
+// });
 
 
 
