@@ -1,0 +1,401 @@
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .carousel-slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .carousel-slide.active {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  
+
+
+
+
+#caard {
+    justify-content: center;
+}
+#card {
+     width: 570px; 
+    height: 300px; 
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#card:before, #card:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#card:before {
+    background-color: #edc2b9; /* Первый цвет */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: 1;
+}
+
+#card:after {
+    background-color: #FDD5CD; /* Второй цвет */
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+#card-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+#card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#card p {
+    font-size: 14px;
+    color: white;
+}
+
+
+#caard1 {
+    justify-content: center;
+}
+#card1 {
+     width: 570px; 
+    height: 300px; 
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#card1:before, #card1:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#card1:before {
+    background-color: #FFC2CC; /* Первый цвет */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: 1;
+}
+
+#card1:after {
+    background-color: #d5a1aa; /* Второй цвет */
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+#card-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+#card1 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#card1 p {
+    font-size: 14px;
+    color: white;
+}
+
+
+#caard2 {
+    justify-content: center;
+}
+#card2 {
+     width: 570px; 
+    height: 260px; 
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#card2:before, #card2:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#card2:before {
+    background-color: #B4EAB3; /* Первый цвет */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: 1;
+}
+
+#card2:after {
+    background-color: #8fc28e; /* Второй цвет */
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+#card-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+#card2 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#card2 p {
+    font-size: 14px;
+    color: white;
+}
+
+#caard3 {
+    justify-content: center;
+}
+#card3 {
+     width: 570px; 
+    height: 260px; 
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#card3:before, #card3:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#card3:before {
+    background-color: #fac8be; /* Первый цвет */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: 1;
+}
+
+#card3:after {
+    background-color: #FDD5CD; /* Второй цвет */
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+#card-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+#card3 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#card3 p {
+    font-size: 14px;
+    color: white;
+}
+
+#caard4 {
+    justify-content: center;
+}
+#card4 {
+     width: 570px; 
+    height: 260px; 
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#card4:before, #card4:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#card4:before {
+    background-color:  #aaadeb; /* Первый цвет */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: 1;
+}
+
+#card4:after {
+    background-color: #C4C6EC; /* Второй цвет */
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+#card-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+#card4 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#card4 p {
+    font-size: 14px;
+    color: white;
+}
+
+#caard5 {
+    justify-content: center;
+}
+#card5 {
+     width: 570px; 
+    height: 260px; 
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#card5:before, #card5:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#card5:before {
+    background-color:  #A8DCDF; /* Первый цвет */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: 1;
+}
+
+#card5:after {
+    background-color: #74bec2; /* Второй цвет */
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+#card-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+#card5 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#card5 p {
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+
+
+/* shahida */
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+  swiper-container {
+    width: 100%;
+    height: auto;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
