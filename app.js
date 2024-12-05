@@ -87,6 +87,31 @@ const macarons = [
     },
 ];
 
+// myrza
+const popular = document.getElementById("popular");
+data1.forEach((i) => {
+    const datalist = document.createElement("div");
+    datalist.innerHTML = `
+    
+    <div class="border-4 w-[370px] h-[459px] shadtow-2xl ransition-transform duration-500 hover:scale-110">
+    <img  src=${i.img} class="">
+    <h1 class=" text-[18px] font-semibold ml-[21px] "> ${i.name}</h1>
+    <p class="text-[14px] text-[#292929] font-normal ml-[21px] "> ${i.p}</P>
+   <h2 Class="  text-[#E7426A] text-[18px] font-semibold mt-[25px] ml-[10px] "> ${i.h2}</h2>
+     <button class=" w-[173px] h-[49px] border-2  hover:text-[red] ml-[190px] mt-[-20px] "> ${i.btn}</button>
+      <img  src=${i.img1} class="ml-[215px] mt-[-35px]">
+
+    </div>
+    `;
+    popular.appendChild(datalist);
+});
+
+
+ 
+
+
+
+
 
 // shahida
 const swiperContainer = document.querySelector('.mySwiper');
@@ -131,24 +156,7 @@ data2.forEach(news => {
 
 
 
-// myrza
-const popular = document.getElementById("popular");
-data1.forEach((i) => {
-    const datalist = document.createElement("div");
-    datalist.innerHTML = `
-    
-    <div class="border-4 w-[370px] h-[459px] shadow-2xl">
-    <img  src=${i.img} class="transition-transform duration-500 hover:scale-110">
-    <h1 class=" text-[18px] font-semibold ml-[21px] "> ${i.name}</h1>
-    <p class="text-[14px] text-[#292929] font-normal ml-[21px] "> ${i.p}</P>
-    <h2 Class=" ml-[20px] text-[#E7426A] text-[18px] font-semibold  "> ${i.h2}</h2>
-     <button class=" w-[173px] h-[49px] border-2 ml-[190px] mt-[12px] hover:text-[red] "> ${i.btn}</button>
-     <img  src=${i.img1} class="mt-[-35px] ml-[210px]">
 
-    </div>
-    `;
-    popular.appendChild(datalist);
-});
 
 
 const see7 = document.getElementById("see7");
@@ -156,7 +164,7 @@ see.forEach((item) => {
     const seelist = document.createElement("div");
     seelist.innerHTML = `
     
-    <div class=" w-[310px] h-[390px] ">
+    <div class=" w-[310px] h-[390px] transition-transform duration-500 hover:scale-110  ">
     <img  src=${item.img} class="w-[310px]">
      <h1 class="font-semibold text-[18px] mt-[29px] "> ${item.h1}</h1>
      <p class="font-normal text-[14px] "> ${item.p}</p>
